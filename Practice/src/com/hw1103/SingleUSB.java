@@ -2,10 +2,10 @@ package com.hw1103;
 
 public class SingleUSB {
     private String name;
-    private float size;
+    private int size;
     private float price;
 
-    public SingleUSB(String name, float size, float price) {
+    public SingleUSB(String name, int size, float price) {
         this.name = name;
         this.size = size;
         this.price = price;
@@ -23,7 +23,7 @@ public class SingleUSB {
         return size;
     }
 
-    public void setSize(float size) {
+    public void setSize(int size) {
         this.size = size;
     }
 
